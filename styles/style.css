@@ -48,6 +48,7 @@ nav li a{
 
 /* Banner section relater styles */
 .banner{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,4 +105,45 @@ nav li a{
     gap: 10px;
     border-radius: 48px;
     background: #4EC5F7;
+}
+/* Main Sections Related Styles */
+
+
+
+
+
+
+
+/* Responsive Related Styles */
+/* Small Devices */
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-link{
+        flex-direction: column;
+    }
+    .nav-link li{
+        margin-top: 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+}
+
+/* Medium Devices */
+@media screen and (min-width:576) and (max-width:960px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-link{
+        flex-direction: column;
+    }
+    .nav-link li{
+        margin-top: 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
 }
