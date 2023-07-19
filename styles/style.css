@@ -1,0 +1,48 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav Related Styles */
+.navbar{
+    margin: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-title img{
+    width: 5.4rem;
+    height: 2.5rem;
+}
+.gamer{
+    margin-left: 20px;
+    color: #F948B2;
+}
+.navbar > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 2rem;
+}
+nav li a{
+    color: #3C354F;
+    text-decoration: none;
+}
+.follow-us{
+    padding-top: 15px;
+    width: 230px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.youtube{
+    margin: 0 20px;
+}
