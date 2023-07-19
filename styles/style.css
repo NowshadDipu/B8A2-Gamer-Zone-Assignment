@@ -145,6 +145,45 @@ nav li a{
 .card img:hover{
 
 }
+/* Play Instantly Related Styles */
+.play-instantly{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.play-content{
+    position: relative;
+    right: -150px;
+}
+.play-content-title{
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+} 
+.instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content-description{
+    color: #534C64;
+    text-align: right;
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-image .image{
+    position: relative;
+    left: 150px;
+    bottom: -70px;
+}
+
+
 
 
 
@@ -166,8 +205,14 @@ nav li a{
     .banner{
         flex-direction: column-reverse;
     }
-    .games-card{
+    .games-card,
+    .play-instantly
+    {
         flex-direction: column;
+    }
+    .play-content{
+        right: 0;
+        text-align: center;
     }
 
 }
