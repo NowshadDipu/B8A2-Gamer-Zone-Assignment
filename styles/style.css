@@ -199,6 +199,41 @@ nav li a{
     align-items: center;
 }
 
+/* Foote related styles */
+.footer{
+    padding: 100px;
+    background-color: #0B0223;
+}
+.footer-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+}
+.footer-content{
+    color: #FFF;
+    margin-top: -30px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.footer-icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.footer-conditions{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
